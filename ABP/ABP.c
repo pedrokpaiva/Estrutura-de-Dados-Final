@@ -33,8 +33,6 @@ arv* InsereArvore (arv* a, char dados[], int id){
         if(temp == 0){
             a->ids = InsereId(a->ids,id);
         }
-
-
         if(temp<0){
             a->esq = InsereArvore(a->esq, dados, id);
         }

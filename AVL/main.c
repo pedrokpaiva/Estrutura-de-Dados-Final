@@ -3,9 +3,9 @@
 // esses argumentos da main são usados para receber os inputs além da função
 // na linha de comando;
 
-
-int main(int argc, char **argv) {
-
+//int argc, char **argv
+int main() {
+    printf("here");
     arv *arvo;
     arvo = Inicializa();
     char leitura[300];
@@ -16,7 +16,6 @@ int main(int argc, char **argv) {
     tweets = fopen("base_100.txt", "r");
     searchs = fopen("consulta_100.txt", "r");
     output = fopen("saida_100.txt", "w");
-
 
     setlocale(LC_ALL, "pt_BR_utf8");
 
