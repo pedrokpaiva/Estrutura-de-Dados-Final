@@ -1,17 +1,17 @@
-A palavra solteiro
-  não foi encontrada na base de tweets 
-A palavra voce
-  não foi encontrada na base de tweets 
-A palavra liberdade
-  não foi encontrada na base de tweets 
-A palavra jeito
-  não foi encontrada na base de tweets 
-A palavra oscar
-  não foi encontrada na base de tweets 
-A palavra nocao
-  não foi encontrada na base de tweets 
-A palavra de
-  não foi encontrada na base de tweets 
+ solteiro
+ 99
+ voce
+ 8
+ liberdade
+ 99
+ jeito
+ 4
+ oscar
+ 86
+ nocao
+ 84
+ de
+ 1
 A palavra bateria
   não foi encontrada na base de tweets 
-A palavra nada   não foi encontrada na base de tweets 
+ nada  20

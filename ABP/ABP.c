@@ -153,3 +153,12 @@ void RecebePesquisa(char *palavra, arv *arvo, FILE *arq){
     fprintf(arq,"A palavra %s  não foi encontrada na base de tweets \n", palavra);
     puts("Nao encontrada \n");
 }
+
+void imprimeIDs(lista *ids, FILE *arq){
+    lista* ptaux;
+    if (ids == NULL)
+    fprintf(arq, "lista vazia");
+    else
+    for (ptaux=ids; ptaux!=NULL; ptaux=ptaux->prox)
+        fprintf(arq, "%i", ptaux->num);
+}

@@ -31,4 +31,5 @@ arv* RecebeTweet(char *tweet, arv *arvo);
 lista* InsereId(lista *lista1, int id);
 lista* IDS(int id);
 void RecebePesquisa(char *palavra, arv *arvo, FILE *arq);
+void imprimeIDs(lista *ids, FILE *arq);
 #endif //SAIGRADLE_ABP_H
