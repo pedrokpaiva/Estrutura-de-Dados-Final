@@ -5,7 +5,6 @@
 
 //int argc, char **argv
 int main() {
-    printf("here");
     arv *arvo;
     arvo = Inicializa();
     char leitura[300];
@@ -16,9 +15,8 @@ int main() {
     tweets = fopen("base_100.txt", "r");
     searchs = fopen("consulta_100.txt", "r");
     output = fopen("saida_100.txt", "w");
-
+    
     setlocale(LC_ALL, "pt_BR_utf8");
-
     // No fim irá ser descomentado, tá comentado agora só pra dar pra rodar sem ter q ser pela linha de comando e dai
     // conseguir usar o debuger melhor :)
 
@@ -47,9 +45,8 @@ int main() {
 
 
 
-
     while(fgets(leitura, 300, tweets)){
-
+    printf("here");
         arvo = RecebeTweet(leitura, arvo);
 
     }
