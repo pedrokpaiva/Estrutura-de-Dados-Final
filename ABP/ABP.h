@@ -20,7 +20,7 @@ typedef struct arv{
     struct arv *esq;
     struct arv *dir;
     lista *ids;
-    char string[20];
+    char string[100];
 } arv;
 
 
@@ -29,7 +29,7 @@ arv* Inicializa(void);
 arv* InsereArvore (arv* a, char dados[], int id);
 arv* RecebeTweet(char *tweet, arv *arvo);
 lista* InsereId(lista *lista1, int id);
-lista* IDS(int id);
+int Altura(arv *a);
 void RecebePesquisa(char *palavra, arv *arvo, FILE *arq);
-void imprimeIDs(lista *ids, FILE *arq);
+void printStats(FILE *arq, arv* a);
 #endif //SAIGRADLE_ABP_H
