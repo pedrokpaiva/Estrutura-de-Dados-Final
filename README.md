@@ -19,22 +19,22 @@ Trabalho final da cadeira Estrutura de Dados 2020/2
 4. Resultados
 	Os programas foram testados com 3 bancos de tweets diferentes, cada um com uma quantidade maior de tweets. A seguir, os resultados de cada programa, em cada teste.
 
-		|------------------|
-		|Base de 100 tweets|
-		|------------------|
-		|ABP|AVL|        
-		|---|---|
+|---|------------------|---|
+|---|Base de 100 tweets|---|
+|---|------------------|---|
+|---|ABP|AVL|        
+|---|---|---|
 |Nodos		|704|704|
 |Comparações	|11441|10490|
 |Rotações	|---| 511|
 |Altura		|22|11|
 |Comp. Consulta	|98|83|
 
-		|------------------|
-		|Base de 10k tweets|
-		|------------------|
-		|ABP|AVL|        
-		|---|---|
+|---|------------------|---|
+|---|Base de 10k tweets|---|
+|---|------------------|---|
+|---|ABP|AVL|        
+|---|---|---|
 |Nodos		|15576|15576|
 |Comparações	|1397994|1368140|
 |Rotações	|---|11048|
@@ -42,11 +42,11 @@ Trabalho final da cadeira Estrutura de Dados 2020/2
 |Comp. Consulta	|97|83|
 
 
-		|-------------------|
-		|Base de 900k tweets|
-		|-------------------|
-		|ABP|AVL|        
-		|---|---|
+|---|------------------|---|
+|---|Base de 900k tweets|---|
+|---|------------------|---|
+|---|ABP|AVL|        
+|---|---|---|
 |Nodos		|175807|175807|
 |Comparações	|124034615|130041774|
 |Rotações	|---|124920|
