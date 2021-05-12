@@ -28,7 +28,7 @@ arv* InsereArvore (arv* a, char dados[], int id){
         a->ids = InsereId(a->ids, id);
     }
 
-    // caso não seja nula
+        // caso não seja nula
     else{
         // é comparada a string do nó atual da arvore com a palavra a ser inserida
         temp = strcmp(dados, a->string);
@@ -98,7 +98,7 @@ lista* InsereId(lista *lista1, int id){
         return temp;
     }
 
-    // caso já haja ids:
+        // caso já haja ids:
     else{
         // testa se o primeiro id, ultimo a ser inserido é igual ao que deve ser inserido
         // evitando repetição do id, caso a palavra se repita 2 vezes numa mesma frase
@@ -106,9 +106,9 @@ lista* InsereId(lista *lista1, int id){
             return lista1;
         }
 
-        // caso não seja igual, é inserido como primeiro da lista
-        // é mais eficiente computacionalmente, visto que não há necessidade de percorrer a lista
-        // e também é mais fácil a comparação para evitar copias
+            // caso não seja igual, é inserido como primeiro da lista
+            // é mais eficiente computacionalmente, visto que não há necessidade de percorrer a lista
+            // e também é mais fácil a comparação para evitar copias
         else{
             temp = (lista*) malloc(sizeof(lista)+1);
             temp->num = id;
@@ -131,7 +131,7 @@ void RecebePesquisa(char *palavra, arv *arvo, FILE *arq){
         pesq++;
 
         // é comparada a palavra com a string do vertice atual
-        temp = strncmp(palavra, ptarv->string, strlen(palavra)-1);
+        temp = strcmp(palavra, ptarv->string);
 
         // caso a palavra seja "menor" é pesquisada na subárvore esquerda
         if(temp<0){

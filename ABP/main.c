@@ -49,6 +49,7 @@ int main(int argc, char *argv[]) {
 
     // Enquanto há linhas palavras para serem consultadas as encaminha para a pesquisa
     while(fgets(leitura, 300, searchs)){
+        leitura[strlen(leitura) - 1] = '\0';
         RecebePesquisa(leitura, arvo, output);
     }
 
